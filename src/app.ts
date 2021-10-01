@@ -90,6 +90,8 @@ cron.schedule('0 45 23 * * *', () => {
         .insert()
         .into(Fortune).values(data)
         .execute();
+
+      console.log('Saving Data');
     }).catch(error => console.log(error));
   })();
 });
