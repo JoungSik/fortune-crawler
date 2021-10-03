@@ -1,6 +1,5 @@
 import cron from 'node-cron';
 
-import 'chromedriver';
 import { Builder, By } from 'selenium-webdriver';
 import chrome from 'selenium-webdriver/chrome';
 
