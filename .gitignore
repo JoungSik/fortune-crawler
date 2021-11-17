@@ -196,4 +196,7 @@ tmp
 # env
 .env
 
+# go build
+bin/
+
 # End of https://www.toptal.com/developers/gitignore/api/goland,visualstudiocode,go,osx,linux,windows
